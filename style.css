@@ -1,0 +1,66 @@
+html, body {
+  display: flex;
+  justify-content: center;
+  height: 100%
+}
+
+body {
+  background-image: url("https://images7.alphacoders.com/595/595224.jpg");
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(19,24,98);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  margin: 0 0 30px 0;
+  border:rgba(0, 0, 0, .7) solid 4px;
+}
+
+section.board {
+  display: grid;
+  grid-template-rows: repeat(3, 10vmin);
+  grid-template-columns: repeat(5, 10vmin);
+  margin: 20px 0 0 0;
+  /* border: solid black 2px; */
+}
+
+div.square {
+  border: solid black 3px;
+  font-size: 8vmin;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(84,107,171);
+}
+
+div.emptySqr {
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+}
+
+h1, h2 {
+  color: rgb(190,169,222);
+  background-color: rgb(46,68,130);
+  padding: .4em .5em;
+  border:rgba(0, 0, 0, .6) solid 3px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: ;
+}
+
+button {
+  background-color: rgb(135,136,156);
+  margin: 15px;
+}
