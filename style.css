@@ -21,6 +21,10 @@ body {
   text-align: center;
 }
 
+span {
+  font-size: 22px;
+}
+
 img {
   margin: 0 0 30px 0;
   border:rgba(0, 0, 0, .7) solid 4px;
